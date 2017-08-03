@@ -60,6 +60,7 @@ function HTMLTemplate(data){
     
 </html>
  `;
+ return template;
     }
 
 app.get('/', function (req, res) {
