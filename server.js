@@ -4,6 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+
 var articles = {
 
 'article-one' :{
@@ -31,8 +32,6 @@ var articles = {
 
 };
 
-
-}
     
 function HTMLTemplate(data){
     title = data.title;
