@@ -59,12 +59,7 @@ function HTMLTemplate(data){
     
     
 </html>
-
-    
-    
-    
-    
-    `
+ `;
     }
 
 app.get('/', function (req, res) {
