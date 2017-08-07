@@ -7,7 +7,7 @@ request.onreadystatechange = function(){
         if(request.status === 200){
            var count =  request.responseText;
             var countname = document.getElementById('count');
-    countname.innerHTML = count.toString();
+            countname.innerHTML = count.toString();
             
         }
     }
