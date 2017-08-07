@@ -14,7 +14,7 @@ request.onreadystatechange = function(){
     
     
 };
-request.open('GET', 'http://http://singhabhimanyu186.imad.hasura-app.io/counter', true);
+request.open('GET', 'http://singhabhimanyu186.imad.hasura-app.io/counter', true);
 request.send(null);
    
     
