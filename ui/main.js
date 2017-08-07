@@ -1,9 +1,21 @@
 var counter = document.getElementById('counter');
-var count = 0;
-
 counter.onclick = function(){
-    count = count+1;
-    var countname = document.getElementById('count');
-    
+    var request = new XMLHttpRequest();
+request.onreadystatechange = function(){
+    if(request.readystate === XMLHttpRequest.DONE ){
+        
+        if(request.status === 200){
+           count =  request.responseText;
+            var countname = document.getElementById('count');
     countname.innerHTML = count.toString();
+            
+        }
+    }
+    
+    
+};
+request.open('GET', 'http://http://singhabhimanyu186.imad.hasura-app.io/counter', true);
+request.send(null);
+   
+    
     };
