@@ -1,13 +1,8 @@
-console.log('Loaded!');
-var img = document.getElementById('tech');
-marginleft = 0;
-function moveright(){
-    marginleft = marginleft + 1;
-    img.style.marginLeft = marginleft + 'px';
-    
-    
-}
-img.onclick = function(){
-    var interval = setInterval(moveright,50);
-    
+var counter = document.getElementById('counter');
+var count = 0;
+
+counter.onclick = function(){
+    count = count+1;
+    var countname = document.getElementById('count');
+    countname.InnderHTML = count.toString();
     };
