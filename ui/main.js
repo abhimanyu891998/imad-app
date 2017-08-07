@@ -5,7 +5,7 @@ request.onreadystatechange = function(){
     if(request.readystate === XMLHttpRequest.DONE ){
         
         if(request.status === 200){
-           count =  request.responseText;
+           var count =  request.responseText;
             var countname = document.getElementById('count');
     countname.innerHTML = count.toString();
             
