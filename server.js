@@ -110,9 +110,9 @@ app.get('/counter', function(req,res){
 });
 
 var comments = [];
-app.get('/comment',function(req,res)
+app.get('/comment/:comment_name',function(req,res)
 {
-  var comment = req.query.comment;
+  var comment_name = req.params.comment;
   comments.push(comment);
   res.send(JSON.stringify(comment));
     
