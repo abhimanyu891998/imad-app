@@ -1,4 +1,4 @@
-/*var counter = document.getElementById('counter');
+var counter = document.getElementById('counter');
 counter.onclick = function(){
     var request = new XMLHttpRequest();
 request.onreadystatechange = function(){
@@ -66,10 +66,10 @@ request.send(null);
 
 // js code for article pages
 
-*/
 
 
-var comment_button = document.getElementById('submit_cmt');
+
+/* var comment_button = document.getElementById('submit_cmt');
 comment_button.onclick = function(){
     var comment_text = document.getElementById('cmt_txt');
     var comment_content = comment_text.value;
@@ -107,7 +107,7 @@ request.send(null);
     
     
     
-};
+}; */
 
 
 
