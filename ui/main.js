@@ -62,3 +62,12 @@ request.send(null);
     
     
 };
+
+
+// js code for article pages
+
+
+
+
+
+
