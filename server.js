@@ -56,6 +56,8 @@ function HTMLTemplate(data){
             
         }
     </style>
+      <script type="text/javascript" src="/ui/main.js">
+            </script> 
     </head>
     <body>
         <div class = "container">
@@ -74,6 +76,13 @@ function HTMLTemplate(data){
         </div>
         </div>
         </hr>
+        <div>
+        <p>Comments Section</p>
+        <input type = "text" placeholder = "write your comment here!"></input>
+        <input type = "submit" value = "submit_btn1" id="submit_cmt"></input>
+        <ul id="cmt_list"></ul>
+        
+        </div>
         
         
         
