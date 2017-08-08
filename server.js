@@ -58,13 +58,13 @@ function HTMLTemplate(data){
         
         ul li:nth-child(2n){
             
-            color: #ccc;
+            background-color: #ccc;
             
         }
         
         ul li:nth-child(2n+1){
             
-            color: #eee;
+           background-color: #eee;
             
         }
     </style>
