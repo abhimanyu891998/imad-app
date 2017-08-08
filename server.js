@@ -113,8 +113,8 @@ var comments = [];
 app.get('/comment/:comment_name',function(req,res)
 {
   var comment_name = req.params.comment;
-  comments.push(comment);
-  res.send(JSON.stringify(comment));
+  comments.push(comment_name);
+  res.send(JSON.stringify(comments));
     
 }
 
