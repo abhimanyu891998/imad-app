@@ -79,7 +79,7 @@ function HTMLTemplate(data){
         <div>
         <p>Comments Section</p>
         <input type = "text" placeholder = "write your comment here!"></input>
-        <input type = "submit" value = "submit_btn1" id="submit_cmt"></input>
+        <input type = "submit" value = "Comment" id="submit_cmt"></input>
         <ul id="cmt_list"></ul>
         </div>
         </div>
