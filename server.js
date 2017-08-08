@@ -56,8 +56,7 @@ function HTMLTemplate(data){
             
         }
     </style>
-      <script type="text/javascript" src="/ui/article.js">
-            </script> 
+      
     </head>
     <body>
         <div class = "container">
@@ -84,7 +83,8 @@ function HTMLTemplate(data){
         </div>
         </div>
         
-        
+        <script type="text/javascript" src="/ui/article.js">
+            </script> 
         
     </body>
     
