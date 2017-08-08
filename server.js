@@ -78,7 +78,7 @@ function HTMLTemplate(data){
         </hr>
         <div>
         <p>Comments Section</p>
-        <input type = "text" placeholder = "write your comment here!"></input>
+        <input type = "text" id="cmt_txt" placeholder = "write your comment here!"></input>
         <input type = "submit" value = "Comment" id="submit_cmt"></input>
         <ul id="cmt_list"></ul>
         </div>
