@@ -83,7 +83,7 @@ function HTMLTemplate(data){
         </div>
         </div>
         
-        <script type="text/javascript" src="/ui/main.js">
+        <script type="text/javascript" src="article.js">
             </script> 
         
     </body>
