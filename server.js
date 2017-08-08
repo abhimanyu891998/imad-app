@@ -74,7 +74,7 @@ function HTMLTemplate(data){
         </div>
         </div>
         </hr>
-        <p>Comments Section</p>
+        
         
         
     </body>
