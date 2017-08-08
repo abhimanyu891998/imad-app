@@ -56,13 +56,13 @@ function HTMLTemplate(data){
             
         }
         
-        ul li::nth-child(even){
+        ul li:nth-child(2n){
             
             color: #ccc;
             
         }
         
-        ul li::nth-child(odd){
+        ul li:nth-child(2n+1){
             
             color: #eee;
             
