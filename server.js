@@ -83,7 +83,7 @@ function HTMLTemplate(data){
         </div>
         </div>
         
-        <script type="text/javascript" src="article.js">
+        <script type="text/javascript" src="/ui/article.js">
             </script> 
         
     </body>
@@ -147,8 +147,9 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/article.js', function (req, res) {
-  res.sendFile(path.join('article.js'));
+
+app.get('/ui/article.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article.js'));
 });
 
 
