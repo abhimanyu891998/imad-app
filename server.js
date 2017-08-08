@@ -55,6 +55,18 @@ function HTMLTemplate(data){
         padding-right: 20px;
             
         }
+        
+        ul li::nth-child(even){
+            
+            color: #ccc;
+            
+        }
+        
+        ul li::nth-child(odd){
+            
+            color: #eee;
+            
+        }
     </style>
       
     </head>
