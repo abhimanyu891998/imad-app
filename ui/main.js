@@ -20,12 +20,22 @@ request.send(null);
     
     };
     
-var nameinput = document.getElementById('name');
-var name = nameinput.value;
-var submit = document.getElementById('submit_btn');
+
 submit.onclick = function(){
     //make a request to the server and send the name
-    var names = ["name1","name2","name3"];
+    var nameinput = document.getElementById('name');
+var name = nameinput.value;
+var submit = document.getElementById('submit_btn');
+     var request = new XMLHttpRequest();
+request.onreadystatechange = function(){
+    if(request.readyState === XMLHttpRequest.DONE ){
+        
+        if(request.status === 200){
+            
+            
+    var names = request.respnseText;
+    names = JSON.parse(names);
+    
     var list = '';
     for(var i =0 ; i<names.length ; i++)
     {
@@ -37,6 +47,16 @@ var ul = document.getElementById('namelist');
 ul.innerHTML = list;
 
     
+           
+            
+        }
+    }
+    
+    
+};
+request.open('GET', 'http://singhabhimanyu186.imad.hasura-app.io/submit-name?name='+name, true);
+request.send(null);
+   
 
     
     
