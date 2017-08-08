@@ -73,6 +73,8 @@ function HTMLTemplate(data){
            ${content}
         </div>
         </div>
+        </hr>
+        <p>Comments Section</p>
         
         
     </body>
