@@ -81,7 +81,7 @@ function HTMLTemplate(data){
         <input type = "text" placeholder = "write your comment here!"></input>
         <input type = "submit" value = "submit_btn1" id="submit_cmt"></input>
         <ul id="cmt_list"></ul>
-        
+        </div>
         </div>
         
         
